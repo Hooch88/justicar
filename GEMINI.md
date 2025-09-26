@@ -11,6 +11,16 @@ The project is structured as follows:
 *   `go.mod` and `go.sum`: Manage the project's dependencies.
 *   `.env`: A file to store the necessary API keys and credentials for Supabase and the Gemini API. This file is ignored by Git.
 
+## Collaboration Workflow: The Architect and The Engineer
+
+This project follows a specific workflow to ensure smooth collaboration between the user (the Architect) and the Gemini CLI (the Engineer).
+
+*   **The Architect (User/Gemini Pro Chat):** Responsible for high-level design, narrative, and game mechanics. All creative and brainstorming work is done here. The output of this phase is a "blueprint"—a clear, non-technical, natural language description of the desired feature.
+
+*   **The Engineer (Gemini CLI):** Responsible for all technical implementation. The Engineer takes the blueprint from the Architect and handles all coding, debugging, and verification based on the actual project files and constraints.
+
+**The Golden Rule:** The handoff from Architect to Engineer must always be in natural language, describing *what* should be built, not *how* it should be built.
+
 ## Building and Running
 
 To build and run this project, you will need to have Go installed on your system.
